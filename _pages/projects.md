@@ -1,7 +1,7 @@
 ---
 title: "Projects"
 layout: single
-excerpt: "List of projects and open source contributions I've done."
+excerpt: "Comprehensive list of projects and technical contributions."
 sitemap: true
 permalink: /projects
 author_profile: true
@@ -9,157 +9,78 @@ toc: true
 toc_label: "Projects"
 toc_icon: "cog"
 header:
-    overlay_filter: "0.0"
-    overlay_image: "/assets/images/header-projects.jpg"
-    show_overlay_excerpt: false
+  overlay_filter: "0.0"
+  overlay_image: "/assets/images/header-projects.jpg"
+  show_overlay_excerpt: false
 ---
 
+My work spans **AI integration**, **full-stack development**, and **cloud infrastructure** solutions, leveraging cutting-edge technologies like Kubernetes, OpenShift, AWS Cloud, and WatsonX AI for scalable and robust implementations.
 
+## AI Solutions with WatsonX
 
-My work is based on analysis data for actionable insights. Devising and applying **models** and **algorithms** to mine the stores of big data. Analyzing the data to identify **patterns** and **trends**.
+<p><a href="https://www.ibm.com/watsonx" title="Redirect WatsonX">  
+<img src="/assets/images/watsonx-logo.png" width="190" alt="WatsonX AI" /></a></p>
 
+I have developed multiple AI-driven projects utilizing **IBM WatsonX** technologies:
 
+1. **WatsonX.AI + Watson Assistant Integration**  
+   Built a unified solution by integrating **WatsonX.AI** with **Watson Assistant**, enhancing conversational AI capabilities with advanced data analysis and contextual understanding.
 
-## Cloud Solutions
+2. **Neural Seek + Watson Assistant + Watson Discovery**  
+   Implemented **Neural Seek** alongside Watson Assistant and Watson Discovery to create a smart, searchable platform for real-time data extraction using neural networks and natural language processing.
 
-<p><a href="https://www.capgemini.com/" title="Redirect Capgemini">  
-<img src="../assets/images/posts/projects/capgemini.png" width="190" alt="homepage" /></a></p>
+3. **Streamlit Interface for WatsonX Foundational Models**  
+   Developed a **Streamlit** interface for users to interact with WatsonX foundational models, simplifying complex AI model usage for real-time applications in research and analytics.
 
-I am responsible for Analyzing a company's IT system and  **cloud** infrastructure of a client. Diagnosing IT system problems, inefficiencies, and weaknesses. Planning a timeline for **completion of projects**. Understanding a client's business needs. Implementing a **cloud solution** to meet business needs. Analyzing and determining security threats. Providing advice on technology best practices. Collaborating with the **technical** in-house team to ensure familiarity with **cloud** technology.
+4. **Research Paper Query with WatsonX**  
+   Built an API-driven platform to interact with research papers hosted on **arXiv** through **WatsonX** models. The system allows for intelligent querying of vast academic datasets, delivering structured insights.
 
-<p><a href="https://reply.it" title="Redirect Reply">  
-<img src="../assets/images/reply.png" width="190" alt="homepage" /></a></p>
-I  have **built** and maintained an organization's data infrastructure, particularly for cloud services in AWS, including relational databases and non-relational databases, **data warehouses**, and data pipelines. The infrastructure is deployed by using **Terraform** and the data transformation through **Scala** and **Spark**.
+## Cloud Infrastructure & AWS Solutions
 
-<p><a href="https://www.youracclaim.com/users/ruslan-idelfonso-magana-vsevolodovna/badges" title="Redirect Acclaim">  
-<img src="../assets/images/awslogo.png" width="120" alt="homepage" /></a></p>
+<p><a href="https://aws.amazon.com" title="Redirect AWS">  
+<img src="/assets/images/aws-logo.png" width="120" alt="AWS Cloud" /></a></p>
 
+I have experience managing and deploying scalable applications using **AWS** services, ensuring high availability, security, and cost-efficiency. Key AWS projects include:
 
+1. **Amazon S3 for Static Website Hosting**  
+   Utilized **S3** for hosting static websites and applications. Integrated **CloudFront** for content delivery optimization and **Route 53** for domain management, ensuring global availability.
 
-My professional background includes crafting **algorithms**, making use of **machine learning** to mine, make sense of data, and using **data visualization** to present it to decision-makers. I am instrumental in analysing and delivering quantitative and qualitative research based solutions that reduce redundancy, improve accuracy and efficiency, and achieve organisational objectives. I have the ability to expand existing data delivery platforms and creating data systems that optimise data management, capturing, and quality. I develop advanced cloud-based solutions and migrate existing workloads to the cloud. [Read more...](https://cloud-data-science.com/index.php/services/)
+2. **Amazon EC2 for Scalable Application Hosting**  
+   Designed and deployed applications using **EC2** instances, incorporating **auto-scaling**, **load balancing**, and optimized cost models. Built CI/CD pipelines for seamless deployments using **CodeDeploy** and **CodePipeline**.
 
-##  Cloud Data Science
+3. **VPC for Secure Cloud Networking**  
+   Created **Virtual Private Clouds (VPCs)** for secure network isolation and managed **subnets**, **internet gateways**, and **NAT gateways** for routing. Implemented strict security controls with **IAM roles** and **security groups** to safeguard cloud resources.
 
-<p><a href="https://cloud-data-science.com" title="Redirect Cloud Data Science">  
-<img src="../assets/images/logo_small.png" width="120" alt="homepage" /></a></p>
+## Kubernetes and OpenShift for Containerized Workloads
 
-I perform **data mining, analysis, synthesis, visualization**, and data conversion into reportable formats for presentations, reports writing, and disseminate findings. I determine research methodology by collecting and evaluating data to ensure completeness and accuracy of information. I develop and implement extensive research plans and deliver detailed reports for informed decision-making. [Read more...](https://cloud-data-science.com)
+<p><a href="https://kubernetes.io" title="Redirect Kubernetes">  
+<img src="/assets/images/kubernetes-logo.png" width="120" alt="Kubernetes" /></a></p>
 
+My expertise in **Kubernetes** and **OpenShift** involves orchestrating containerized applications for scalability and resilience. 
 
+1. **Kubernetes-based Microservice Architecture**  
+   Designed and deployed a microservices architecture on **Kubernetes** clusters, managing application scaling and ensuring smooth rollouts with zero downtime. Leveraged **Helm charts** for package management and **Prometheus** for monitoring.
 
-## Data Analysis at  NUMEN 
-<p><a href="https://web.infn.it/NUMEN/index.php/it/collaboration" title="Redirect NUMEN collaboration">  
-<img src="../assets/images/NUMEN.jpg" width="170" alt="homepage" /></a></p>
+2. **OpenShift for Hybrid Cloud Deployments**  
+   Used **OpenShift** to build, deploy, and manage applications in a hybrid cloud environment. Deployed **CI/CD pipelines** with Jenkins, enabling automated container builds and deployments. Managed resource quotas, build configurations, and container health checks for enterprise-level applications.
 
+3. **Docker & Containerization**  
+   Containerized multiple applications using **Docker**, streamlining the development and deployment process. Created **Dockerfiles**, optimized images, and integrated Docker into Kubernetes for seamless deployment workflows.
 
+## Full-Stack Development with MERN
 
-I am part of the experimental [NUMEN](https://web.infn.it/NUMEN/index.php/it/collaboration) collaboration. In the NUMEN project, nuclear reactions of double charge-exchange (DCE) will be used as a tool to extract information on the ββ nuclear matrix elements (NME). Nuclear matrix elements for neutrinoless double beta decay and double charge exchange in the scheme of microscopic Interacting Boson Model are important allowing me belong to the NUMEN collaboration.
+<p><a href="https://mern.io" title="Redirect MERN">  
+<img src="/assets/images/mern-stack.png" width="190" alt="MERN Stack" /></a></p>
 
-My research provides insights to compute accurate nuclear matrix elements that serve to improve the nuclear reactions calculations that can be compared with the current experimental data. By using **machine learning** techniques, such as regression and classification techniques it was possible develop an accurate method to fit parameters to construct the nuclear wave functions for complex nuclei allowing present the results by using plots in Python or R, which helps to understand the complex quantum structure of the nuclei. The implementation of **new technologies** is part of the aim of my future work
+My full-stack development experience focuses on the **MERN stack** (MongoDB, Express.js, React.js, Node.js), where I have developed several dynamic web applications:
 
+1. **E-Commerce Platform**  
+   Built a full-featured e-commerce web application with user authentication, product catalog, cart, and checkout features. Integrated third-party APIs for payment processing and shipping logistics.
 
-
-
-
-## Virial Expansion of Nuclear Equation
-
-
-
-<p><a href="https://cyclotron.tamu.edu/" title="Redirect TAMU">  
-<img src="../assets/images/texas.png" width="120" alt="homepage" /></a></p>
-
-
-Texas A&M University and Cyclotron Institute
-College Station, Texas (United States).
-Programming Language: Python with Mathematica
-
-I have developed a **model** to study the transition between mater and plasma. This may help to understand the external conditions of nature to materialize the matter. This provides insight into how was created our universe in terms of thermodynamics. I have proposed a function in terms of energy and with my team, we expanded the energy per particle (E/A) of symmetric infinite nuclear matter in powers of the density to take into account 2, 3, . . . , N-body forces.
-
-Here we have used a **Machine Learning** technique of **Regression** in Python and used it in Mathematica to check our results.
-
-The new model is proposed by fitting ground state properties of nuclear matter (binding energy, compressibility, and pressure) and assuming that at high densities a second-order phase transition to the quark-gluon plasma (QGP) occurs.
-
-This work helped to understand the nature of the nuclear matter and research more interesting properties of the plasma such are the sun and how under certain conditions the matter if created.
-
-<img src="https://github.com/ruslanmv/ruslanmv.github.io/raw/master/assets/images/image%201.jpg" style="zoom:70%;" />
-
-This work was published in [World Scientifc](https://www.worldscientific.com/doi/abs/10.1142/S0218301312500061) as: Int.J.Mod.Phys. E21 (2012) 1250006
-
-
-
-## Classification of the nuclei by knowing their spectrum and perform analysis of nuclear reactions
-
-<p><a href="https://www.ge.infn.it/wordpress/" title="Redirect INFN Genova">  
-<img src="../assets/images/infn.jpg" width="170" alt="homepage" /></a></p>
-
-National Institute for Nuclear Physics
-Genova (Italy)
-Programming Language: Python with Fortran
-
-In this project, my task was to provide accurate wavefunctions of the 64Ni and 66Ni. To do that I required to compute the best parameters of the model which reproduce the experimental data coming from the [Database](https://www.nndc.bnl.gov/nudat2/ ) Nndc - Brookhaven National Laboratory. With this data, I have created a data set of all even-even nuclei which we have labeled the parameters. The parameters of the 66Ni and 66Ni were obtained by using a classification program in Python and by using the results I could determine the spectrum which are helpful to perform the analysis. The model is written in Fortran, but I was able to use python to get the coefficients. This work helped to study short-range correlations of sequential and direct reactions.
-
-
-
-![](https://github.com/ruslanmv/ruslanmv.github.io/raw/master/assets/images/image%202.jpg)
-
-This work was published [Physical Review](https://journals.aps.org/prc/abstract/10.1103/PhysRevC.96.044612) C 96, 044612 (2017)
-
-
-
-## Analysis and development of a model of the nuclear reaction of Double Charge Exchange
-
-<p><a href="https://www.ge.infn.it/wordpress/" title="Redirect INFN Genova">  
-<img src="../assets/images/infn.jpg" width="170" alt="homepage" /></a></p>
-
-National Institute for Nuclear Physics
-Genova (Italy)
-Programming Language: Python, Wolfram Mathematica, Matlab, C
-
-In this project, I have proposed a model to try to explain a nuclear reaction of a double charge exchange that allows determining the nature of the neutrinos. Find constraints to determine if the neutrinos are antiparticles and particles at the same time. My main role was to give the idea of the process and perform the calculation.
-
-I have performed the calculation by using sophisticated numeric and algebraic methods. We found correlations between neutrinoless double beta decay and double charge exchange and this opens the nuclear physicist community put constraints in the research of the masses of the neutrinos and explorer the new physics.
-
-<img src="https://github.com/ruslanmv/ruslanmv.github.io/raw/master/assets/images/image%204.jpg" style="zoom:60%;" />
-
-
-
-<img src="https://github.com/ruslanmv/ruslanmv.github.io/raw/master/assets/images/image5.jpg" style="zoom:75%;" />
-
-This work was published in [Physical Review](https://journals.aps.org/prc/abstract/10.1103/PhysRevC.98.061601)  Phys. Rev. C 98, 061601(R)
-
-## HPC CUDA Developments
-
-<img src="https://github.com/ruslanmv/ruslanmv.github.io/raw/master/assets/images/nvdia.png" style="zoom:55%;" />
-
-
-
-I have developed software in CUDA language that used in clusters to perform heavy calculations.
-
-
-
-## Developing of CUDA software for the analysis of flooding of a geographical area.
-
-<p><a href="https://www.redrisk.com/" title="Redirect REC">  
-<img src="../assets/images/reca.jpg" width="120" alt="homepage" /></a></p>
-
-
-RED Risk Engineering + Development
-Pavia (Italy)
-Programming Language,C,C++ ,Fortran, CUDA
-
- In this project, the Italian Association of Insurers enquired RED about some flood model results previously obtained for Italy and the South East of Europe in a different project. RED carried out an exhaustive analysis to evaluate the consistency of the flood event generation process, in the case of both defended and undefended areas, thus taking into account the asset vulnerability. Methodological and technical improvements were suggested to obtain a more accurate representation of the flood hazard in Italy, the results of the G-Cat model were analyzed for the 2014 flood of Modena (Italy), for residential buildings, using an exposure dataset. My role in this project was to help the software developers the porting of the code to CUDA and setup the GPUs ready to the servers for debugging on-premises servers. This program is useful to determine the risk of flooding for some geographical areas.
-
-
-
-<img src="https://github.com/ruslanmv/ruslanmv.github.io/raw/master/assets/images/rec.jpg" style="zoom:75%;" />
-
-The code is private and belong to the [RED Risk Engineering](https://www.redrisk.com/)
-
-
-
-
-
-
-
+2. **Portfolio Website**  
+   Designed and deployed a personal portfolio website using HTML/CSS and **React.js** to showcase projects, integrating CI/CD workflows for smooth updates.
 
 <script async defer src="https://buttons.github.io/buttons.js"></script>
+```
+
+This format provides a comprehensive, professional overview of your projects, highlighting your skills in AI, cloud, and full-stack development. You can easily copy this into your project markdown file for your website.

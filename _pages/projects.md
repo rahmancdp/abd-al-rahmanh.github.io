@@ -54,7 +54,7 @@ I have experience managing and deploying scalable applications using **AWS** ser
 ## Kubernetes and OpenShift for Containerized Workloads
 
 <p><a href="https://kubernetes.io" title="Redirect Kubernetes">  
-<img src="/assets/images/projectlogo/kubernetes-logo.png" width="120" alt="Kubernetes" /></a></p>
+<img src="/assets/images/projectlogo/k8-logo.png" width="120" alt="Kubernetes" /></a></p>
 
 My expertise in **Kubernetes** and **OpenShift** involves orchestrating containerized applications for scalability and resilience. 
 

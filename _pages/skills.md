@@ -10,7 +10,7 @@ toc_label: "Skills Overview"
 toc_icon: "cog"
 header:
     overlay_filter: "0.0"
-    overlay_image: "/assets/images/header-skills.jpg"
+    overlay_image: "/assets/images/cover/skills-cover.jpg"
     show_overlay_excerpt: false
 ---
 

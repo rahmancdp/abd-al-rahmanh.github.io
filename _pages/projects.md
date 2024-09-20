@@ -10,7 +10,7 @@ toc_label: "Projects"
 toc_icon: "cog"
 header:
   overlay_filter: "0.0"
-  overlay_image: "/assets/images/header-projects.jpg"
+  overlay_image: "/assets/images/cover/projects-cover.jpg"
   show_overlay_excerpt: false
 ---
 

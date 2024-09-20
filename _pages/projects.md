@@ -19,7 +19,7 @@ My work spans **AI integration**, **full-stack development**, and **cloud infras
 ## AI Solutions with WatsonX
 
 <p><a href="https://www.ibm.com/watsonx" title="Redirect WatsonX">  
-<img src="/assets/images/watsonx-logo.png" width="190" alt="WatsonX AI" /></a></p>
+<img src="/assets/images/projectlogo/watsonx-logo.jpg" width="190" alt="WatsonX AI" /></a></p>
 
 I have developed multiple AI-driven projects utilizing **IBM WatsonX** technologies:
 
@@ -38,7 +38,7 @@ I have developed multiple AI-driven projects utilizing **IBM WatsonX** technolog
 ## Cloud Infrastructure & AWS Solutions
 
 <p><a href="https://aws.amazon.com" title="Redirect AWS">  
-<img src="/assets/images/aws-logo.png" width="120" alt="AWS Cloud" /></a></p>
+<img src="/assets/images/projectlogo/aws-logo.png" width="120" alt="AWS Cloud" /></a></p>
 
 I have experience managing and deploying scalable applications using **AWS** services, ensuring high availability, security, and cost-efficiency. Key AWS projects include:
 
@@ -54,7 +54,7 @@ I have experience managing and deploying scalable applications using **AWS** ser
 ## Kubernetes and OpenShift for Containerized Workloads
 
 <p><a href="https://kubernetes.io" title="Redirect Kubernetes">  
-<img src="/assets/images/kubernetes-logo.png" width="120" alt="Kubernetes" /></a></p>
+<img src="/assets/images/projectlogo/kubernetes-logo.png" width="120" alt="Kubernetes" /></a></p>
 
 My expertise in **Kubernetes** and **OpenShift** involves orchestrating containerized applications for scalability and resilience. 
 
@@ -70,7 +70,7 @@ My expertise in **Kubernetes** and **OpenShift** involves orchestrating containe
 ## Full-Stack Development with MERN
 
 <p><a href="https://mern.io" title="Redirect MERN">  
-<img src="/assets/images/mern-stack.png" width="190" alt="MERN Stack" /></a></p>
+<img src="/assets/images/projectlogo/mern-logo.png" width="190" alt="MERN Stack" /></a></p>
 
 My full-stack development experience focuses on the **MERN stack** (MongoDB, Express.js, React.js, Node.js), where I have developed several dynamic web applications:
 

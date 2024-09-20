@@ -7,7 +7,7 @@ permalink: /about
 author_profile: true
 header:
     overlay_filter: "0.6"
-    overlay_image: "/assets/images/header-about.jpg"
+    overlay_image: "/assets/images/cover/about-cover.jpg"
     show_overlay_excerpt: false
 ---
 
@@ -50,8 +50,8 @@ When I'm not busy building data pipelines or optimizing cloud infrastructure, I 
 I'm also passionate about **open-source projects**. Feel free to explore my [GitHub profile](https://github.com/Abd-al-RahmanH) for more insights into my work.
 
 <figure>
-  <img src="/assets/images/attachment-about.jpg" alt="India">
-  <figcaption>Oaxaca, Mexico</figcaption>
+  <img src="/assets/images/cover/about-cover.jpg" alt="India">
+  <figcaption>Lights Flying</figcaption>
 </figure>
 
 I love sharing my knowledge and experiences in technology. You can also check out my videos on [YouTube](https://www.youtube.com/c/abdulrahman/playlists) where I discuss Data Engineering, AWS, and DevOps topics.

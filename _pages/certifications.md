@@ -17,7 +17,7 @@ header:
 ## Industry Certifications
 
 <p><a href="https://www.ibm.com" title="Redirect to IBM Certifications">  
-<img src="../assets/images/IBM-logo.png" width="120" alt="IBM Certifications" /></a></p>
+<img src="../assets/images/certificationslogo/ibm-logo.jpg" width="120" alt="IBM Certifications" /></a></p>
 
 - **WatsonX Sales Foundations** – IBM, Issued Sept 2023  
   Earned skills in demonstrating WatsonX platform capabilities to prospective clients.
@@ -40,7 +40,7 @@ header:
 ## Professional Certifications
 
 <p><a href="https://www.ibm.com" title="Redirect to IBM Certifications">  
-<img src="../assets/images/IBM-logo.png" width="120" alt="IBM Certifications" /></a></p>
+<img src="../assets/images/certificationslogo/ibm-logo.jpg" width="120" alt="IBM Certifications" /></a></p>
 
 - **Watson Assistant Practitioner** – IBM, Issued Aug 2023  
   Hands-on experience in building conversational AI solutions using Watson Assistant.

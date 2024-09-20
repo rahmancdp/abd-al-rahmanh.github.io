@@ -4,13 +4,15 @@ main:
 #    url: /blog
   - title: "Projects"
     url: /projects
+    
   - title: "Certifications"
     url: /certifications
 
-  - title: "Publications"
-    url: /publications
-  - title: "Talks"
-    url: /talks
+  - title: "Skills"
+    url: /skills
 
   - title: "About"
     url: /about
+    
+  - title: "Contact"
+    url: /contact

@@ -19,9 +19,9 @@ title                    : "Abdul Rahman"
 title_separator          : "-"
 name                     : "Abdul Rahman"
 description              : "Personal website of Abdul Rahman. We talk about Cloud Data Science, Public Speaking and Community."
-url                      : "https://rahmancdp.github.io"
+url                      : "https://abd-al-rahmanh.github.io"
 # baseurl                  : "/"
-repository               : "rahmancdp/rahmnacdp.github.io"
+repository               : "abd-al-rahmanh/abd-al-rahmanh.github.io"
 teaser                   : "assets/images/og_default_header.jpg"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 220
@@ -106,7 +106,7 @@ author:
   avatar           : "/assets/images/avatar.png"
   bio              : "Machine Learning Engineer & Data Engineer & Data Scientist"
   location         : "Tamilnadu, India"
-  email            : "mailforrahman@gmail.com"
+  email            : "mailforrahman197@gmail.com"
   uri              :
   home             : # null (default), "absolute or relative url to link to author home"
   bitbucket        :
@@ -118,21 +118,21 @@ author:
   github           : "rahmancdp"
   gitlab           :
   google_plus      :
-  keybase          : "ruslanmv"
+  keybase          : "rahmancdp"
   instagram        :
   lastfm           :
-  linkedin         : "ruslanmv"
+  linkedin         : "abdulrahman27"
   pinterest        :
   soundcloud       :
   stackoverflow    : # "ruslan-magana-vsevolodovna" (the last part of your profile url, e.g. https://stackoverflow.com/users/123456/username)
   steam            : # "steamId" (the last part of your profile url, e.g. https://steamcommunity.com/id/steamId/)
   tumblr           :
-  twitter          : "ruslanmv_"
+  twitter          : "rahmancdp"
   vine             :
   weibo            :
   xing             :
   youtube          : "https://youtube.com/ "
-  buymeacoffee     : "ruslanmv"
+  buymeacoffee     : "rahmancdp"
 
 
 # Reading Files

@@ -3,8 +3,8 @@ title: "The Journey into Data Engineering & AI with WatsonX"
 excerpt: "Exploring my revamped website and skills in data engineering, cloud infrastructure, and WatsonX AI."
 
 header:
-  image: "/assets/images/posts/data-engineering.jpg"
-  teaser: "/assets/images/posts/data-engineering.jpg"
+  image: "assets/images/posts/2024-08-04-The-Journey-into-Data-Engineering-&-AI-with-WatsonX/data-engineering.jpg"
+  teaser: "assets/images/posts/2024-08-04-The-Journey-into-Data-Engineering-&-AI-with-WatsonX/data-engineering.jpg"
   caption: "Data Engineering & AI - Powering the Future"
 
 ---

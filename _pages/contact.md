@@ -9,7 +9,7 @@ toc: true
 toc_label: "Contact Information"
 header:
     overlay_filter: "0.6"
-    overlay_image: "/assets/images/header-contact.jpg"
+    overlay_image: "/assets/images/cover/contact-cover.jpg"
     show_overlay_excerpt: false
 ---
 

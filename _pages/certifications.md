@@ -10,7 +10,7 @@ toc_label: "Certifications"
 toc_icon: "certificate"
 header:
   overlay_filter: "0.0"
-  overlay_image: "/assets/images/header-certificate.jpg"
+  overlay_image: "/assets/images/cover/certifications-cover.jpg"
   show_overlay_excerpt: false
 ---
 

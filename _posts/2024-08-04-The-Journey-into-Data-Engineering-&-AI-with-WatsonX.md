@@ -26,7 +26,7 @@ With platforms like AWS, I’ve been automating cloud-native apps using Terrafor
 ### DevOps
 From using Docker to orchestrate containers to managing CI/CD pipelines with Jenkins and GitHub, I ensure smooth deployments and system stability.
 
-This site will not only showcase my projects but also feature my thoughts on the latest in AI, cloud, and data engineering. Stay tuned!
+This site will not only showcase my projects but also feature my thoughts on the latest in AI, cloud, and data engineering. Stay tuned!!!
 
 ---
 

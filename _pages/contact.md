@@ -19,13 +19,13 @@ I'm always open to discussing new projects, opportunities, or just connecting wi
 
 ### Email
 
-You can contact me directly at: [your-email@example.com](mailto:mailforrahman197@gmail.com)
+You can contact me directly at: [mailto:mailforrahman197@gmail](mailto:mailforrahman197@gmail.com)
 
 ### Social Media
 
-- **LinkedIn**: [Your LinkedIn Profile](https://www.linkedin.com/in/abdurahman27)
+- **LinkedIn**: [MyLinkedIn Profile](https://www.linkedin.com/in/abdurahman27)
 - **Twitter**: [@YourTwitterHandle](https://twitter.com/yourhandle)
-- **GitHub**: [Your GitHub Profile](https://github.com/abd-al-rahmanh)
+- **GitHub**: [My GitHub Profile](https://github.com/abd-al-rahmanh)
 
 ### Contact Form
 

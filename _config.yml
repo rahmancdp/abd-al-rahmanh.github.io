@@ -26,7 +26,7 @@ teaser                   : "assets/images/og_default_header.jpg"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 220
 comments:
-  provider               : false #"disqus" # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "staticman_v2" "custom"
+  provider               : "disqus" # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "staticman_v2" "custom"
   disqus:
     shortname            : "rahman" # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:

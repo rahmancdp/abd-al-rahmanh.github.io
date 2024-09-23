@@ -1,6 +1,6 @@
 ---
-title: "How to connect Watsonx Assistant to WatsonX"
-excerpt: "How to connect Watsonx Assistant to WatsonX?"
+title: "How to connect Watsonx to Watsonx Assistant"
+excerpt: "How to connect Watsonx to WatsonX Assistant ?"
 
 header:
   image: "../assets/images/posts/2024-08-12-How-to-connect-Watsonx-Assistant-to-WatsonX/cover.jpg"
@@ -11,7 +11,7 @@ header:
 
 **Watsonx** is IBM's platform that helps businesses use Data and AI. It includes tools for training, testing, and using AI, especially generative AI through Large Language Models (LLMs) in the **watsonx.ai** part of the platform. One of the features of **IBM watsonx Assistant** is how easily it can connect to AI services like **watsonx.ai**. This guide will show you how to set up this connection.
 
-This tutorial gives a simple example of how to integrate these two services. If you want to learn more about all the features of **watsonx Assistant**, check out the [documentation](#).  
+This tutorial gives a simple example of how to integrate these two services. If you want to learn more about all the features of **watsonx Assistant**, check out the [Official documentation](https://cloud.ibm.com/docs/watson-assistant?topic=watson-assistant-welcome-new-assistant).  
 
 If you have questions about connecting a virtual assistant with generative AI, feel free to ask in the [discussion forum](#).
 
@@ -21,8 +21,8 @@ If you have questions about connecting a virtual assistant with generative AI, f
 
 To follow this tutorial, you'll need:
 
-- An **IBM watsonx Assistant** instance on IBM Cloud. Even the free version will work.
-- Access to a **watsonx.ai** project.
+- An [**IBM watsonx Assistant**](https://cloud.ibm.com/catalog/services/watsonx-assistant) instance on IBM Cloud. Even the free version will work.
+- Access to a [**watsonx.ai**](https://eu-de.dataplatform.cloud.ibm.com/registration/stepone?context=wx?cm_sp=ibmdev-_-developer-_-trial&utm_source=ibm_developer&utm_content=in_content_link&utm_id=tutorials_integrate-your-watson-assistant-chatbot-with-watsonxai-for-generative-ai&preselect_region=true) project.
 
 ### Estimated Time
 
@@ -34,7 +34,7 @@ This tutorial will take about **20 minutes** to complete.
 
 ### Step 1: Get the OpenAPI Definition for Watsonx.ai
 
-Before connecting **watsonx.ai** to **watsonx Assistant**, you need the OpenAPI file for the **watsonx.ai** service. You can find a sample version in the [assistant toolkit GitHub repository](#). Download the modified version of the **watsonx-openapi.json** file to your computer.
+Before connecting **watsonx.ai** to **watsonx Assistant**, you need the OpenAPI file for the **watsonx.ai** service. You can find a sample version in the [assistant toolkit GitHub repository](https://github.com/watson-developer-cloud/assistant-toolkit/tree/master/integrations/extensions/starter-kits/language-model-watsonx). Download the modified version of the **watsonx-openapi.json** file to your computer.
 
 ### Step 2: Add an Empty Virtual Assistant
 
@@ -110,7 +110,7 @@ Save your action and move to the next step.
 ![](../assets/images/posts/2024-08-12-How-to-connect-Watsonx-Assistant-to-WatsonX/13.jpg)
 ![](../assets/images/posts/2024-08-12-How-to-connect-Watsonx-Assistant-to-WatsonX/14.jpg)
 
-8. For the variable assignment To, select Expression,a pull-down menu appears. Select watsonx + watsonx Assistant(step 2). and select body.results and append with [0].generated_text finally Its looks like eg.2.body.results[0].generated_text. And In Assistant says click fx select session variables and select result
+8. For the variable assignment To, select Expression,a pull-down menu appears. Select watsonx + watsonx Assistant(step 2). and select body.results and append with [0].generated_text finally Its looks like    eg.2.body.results[0].generated_text.    And In Assistant says click fx select session variables and select result
 ![](../assets/images/posts/2024-08-12-How-to-connect-Watsonx-Assistant-to-WatsonX/15.jpg)
 
 

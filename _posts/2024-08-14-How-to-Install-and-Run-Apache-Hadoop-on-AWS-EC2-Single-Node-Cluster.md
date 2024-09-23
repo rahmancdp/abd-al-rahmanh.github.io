@@ -3,7 +3,7 @@ title: "How to Install and Run Apache Hadoop on AWS EC2 (Single-Node-Cluster)"
 excerpt: "How to Install and Run Apache Hadoop on AWS EC2 (Single-Node-Cluster)?"
 
 header:
-  image: "../assets/images/posts/2024-08-14-How-to-Install-and-Run-Apache-Hadoop-on-AWS-EC2-(Single-Node-Cluster)/cover.jpg"
+  image: "../assets/images/posts/2024-08-14-How-to-Install-and-Run-Apache-Hadoop-on-AWS-EC2-Single-Node-Cluster/cover.jpg"
   teaser: "../assets/images/posts/cover.jpg"
   caption: "A year spent in artificial intelligence is enough to make one believe in God. —Alan Perlis"
   categories: [Hadoop, AWS, EC2, Big Data]
@@ -205,7 +205,7 @@ vi hadoop-env.sh
 ```
 
 Remove `#` and paste this `export JAVA_HOME=/usr/lib/jvm/java-11-openjdk-amd64`
-[](../assets/images/posts/2024-08-14-How-to-Install-and-Run-Apache-Hadoop-on-AWS-EC2-(Single-Node-Cluster)/1.jpg)
+[](../assets/images/posts/2024-08-14-How-to-Install-and-Run-Apache-Hadoop-on-AWS-EC2-Single-Node-Cluster/1.jpg)
 
 ## Step 7: ssh key adding for (NOT ROOT USER)
 
@@ -253,12 +253,12 @@ start-dfs.sh
 That's it! You now have Apache Hadoop running on a single-node cluster on your EC2 instance. You can access the NameNode UI by visiting `http://<ec2-public-ip>:9870`.
 
 ##Reference images
-![](../assets/images/posts/2024-08-14-How-to-Install-and-Run-Apache-Hadoop-on-AWS-EC2-(Single-Node-Cluster)/2.jpg)
+![](../assets/images/posts/2024-08-14-How-to-Install-and-Run-Apache-Hadoop-on-AWS-EC2-Single-Node-Cluster/2.jpg)
 
-![](../assets/images/posts/2024-08-14-How-to-Install-and-Run-Apache-Hadoop-on-AWS-EC2-(Single-Node-Cluster)/3.jpg)
+![](../assets/images/posts/2024-08-14-How-to-Install-and-Run-Apache-Hadoop-on-AWS-EC2-Single-Node-Cluster/3.jpg)
 
-![](../assets/images/posts/2024-08-14-How-to-Install-and-Run-Apache-Hadoop-on-AWS-EC2-(Single-Node-Cluster)/4.jpg)
+![](../assets/images/posts/2024-08-14-How-to-Install-and-Run-Apache-Hadoop-on-AWS-EC2-Single-Node-Cluster/4.jpg)
 
-![](../assets/images/posts/2024-08-14-How-to-Install-and-Run-Apache-Hadoop-on-AWS-EC2-(Single-Node-Cluster)/5.jpg)
+![](../assets/images/posts/2024-08-14-How-to-Install-and-Run-Apache-Hadoop-on-AWS-EC2-Single-Node-Cluster/5.jpg)
 
 ## Happy Hadooping!

@@ -78,12 +78,12 @@ Review all the configurations you’ve set. Once you're satisfied, click **Launc
 ## Step 11: Access Your EC2 Instance
 
 Once the instance is launched, navigate back to the **EC2 Dashboard** to view your instance. choose the instance created and click **Connect** button and in EC2 Instance Connect Follow the below images and connect in browser terminal
-[Connect](../assets/images/posts/2024-08-08-How-to-Create-an-AWS-EC2-Instance/8.jpg)
+[](../assets/images/posts/2024-08-08-How-to-Create-an-AWS-EC2-Instance/8.jpg)
 [](../assets/images/posts/2024-08-08-How-to-Create-an-AWS-EC2-Instance/9.jpg)
 
 ## step 12:Connecting using cmd or any terminal that supports SSH
 Follow the below image plz reade carefully before proceed
-[Connect using ssh](../assets/images/posts/2024-08-08-How-to-Create-an-AWS-EC2-Instance/10.jpg)
+[](../assets/images/posts/2024-08-08-How-to-Create-an-AWS-EC2-Instance/10.jpg)
 
 
 ### Example SSH Command:

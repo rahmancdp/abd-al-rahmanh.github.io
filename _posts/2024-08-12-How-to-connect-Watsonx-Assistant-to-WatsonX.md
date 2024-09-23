@@ -3,8 +3,8 @@ title: "How to connect Watsonx to Watsonx Assistant"
 excerpt: "How to connect Watsonx to WatsonX Assistant ?"
 
 header:
-  image: "../assets/images/posts/2024-08-12-How-to-connect-Watsonx-Assistant-to-WatsonX/cover.jpg"
-  teaser: "../assets/images/posts/2024-08-12-How-to-connect-Watsonx-Assistant-to-WatsonX/cover.jpg"
+  image: "../assets/images/posts/2024-08-12-How-to-connect-Watsonx-to-Watsonx-Assistant/cover.jpg"
+  teaser: "../assets/images/posts/2024-08-12-How-to-connect-Watsonx-to-Watsonx-Assistant/cover.jpg"
   caption: "A year spent in artificial intelligence is enough to make one believe in God. —Alan Perlis"
   
 ---
@@ -49,29 +49,29 @@ Otherwise, log in to **watsonx.ai**, ensure you are using the same account as yo
 1. Go to **Manage access and users > API Keys**.
 2. Click **Create**, give it a name like *watsonx-apikey*, and provide a description.
 
-![](../assets/images/posts/2024-08-12-How-to-connect-Watsonx-Assistant-to-WatsonX/1.jpg)
+![](../assets/images/posts/2024-08-12-How-to-connect-Watsonx-to-Watsonx-Assistant/1.jpg)
 
 3. Click **Create** and make sure to copy and save the API key, as you won’t be able to see it again.
 
 ### Step 4: Get Your Watsonx.ai Project ID
 
 In **watsonx.ai**, open the menu, go to **Projects**, and select your project. Under the **Manage** tab, find and copy your **Project ID**. You can save it in a notepad as it's not sensitive information like the API key.
-![](../assets/images/posts/2024-08-12-How-to-connect-Watsonx-Assistant-to-WatsonX/2.jpg)
+![](../assets/images/posts/2024-08-12-How-to-connect-Watsonx-to-Watsonx-Assistant/2.jpg)
 
 ### Step 5: Add Watsonx.ai to Your Assistant
 
 In **watsonx Assistant**, go to the **Integrations** panel on the left side, scroll down to **Extensions**, and click **Build Custom Extension**.
-![](../assets/images/posts/2024-08-12-How-to-connect-Watsonx-Assistant-to-WatsonX/3.jpg)
+![](../assets/images/posts/2024-08-12-How-to-connect-Watsonx-to-Watsonx-Assistant/3.jpg)
 
 Follow the steps below:
 
 1. Name the extension *Watsonx* and give it a description (optional).
 2. Upload the **watsonx-openapi.json** file that you downloaded earlier.
-![](../assets/images/posts/2024-08-12-How-to-connect-Watsonx-Assistant-to-WatsonX/4.jpg)
+![](../assets/images/posts/2024-08-12-How-to-connect-Watsonx-to-Watsonx-Assistant/4.jpg)
 3. Complete the setup by following the prompts.Add the created Extension
-![](../assets/images/posts/2024-08-12-How-to-connect-Watsonx-Assistant-to-WatsonX/5.jpg)
+![](../assets/images/posts/2024-08-12-How-to-connect-Watsonx-to-Watsonx-Assistant/5.jpg)
 4. You will be using **OAuth 2.0** authentication add your **API key** in custom api key field.
-![](../assets/images/posts/2024-08-12-How-to-connect-Watsonx-Assistant-to-WatsonX/6.jpg)
+![](../assets/images/posts/2024-08-12-How-to-connect-Watsonx-to-Watsonx-Assistant/6.jpg)
 
 Once the extension is added, you can use it in your assistant.
 
@@ -81,18 +81,18 @@ Now, you can create an action in **watsonx Assistant** to generate AI responses.
 
 1. In the **Actions** panel, click **Create Action**.
 2. Select **Start from Scratch** and name it *Share Market*.
-![](../assets/images/posts/2024-08-12-How-to-connect-Watsonx-Assistant-to-WatsonX/7.jpg)
+![](../assets/images/posts/2024-08-12-How-to-connect-Watsonx-to-Watsonx-Assistant/7.jpg)
 3. Click the pencil icon to set a step title. Use Prompt for a prompt as the title.
-![](../assets/images/posts/2024-08-12-How-to-connect-Watsonx-Assistant-to-WatsonX/8.jpg)
+![](../assets/images/posts/2024-08-12-How-to-connect-Watsonx-to-Watsonx-Assistant/8.jpg)
 4. Set the user response to **Free Text Input**.
 
 Then Create new step, you'll connect this action to **watsonx.ai**.
 
 5. Use the **watsonx** extension and configure the parameters:
-![](../assets/images/posts/2024-08-12-How-to-connect-Watsonx-Assistant-to-WatsonX/9.jpg)
+![](../assets/images/posts/2024-08-12-How-to-connect-Watsonx-to-Watsonx-Assistant/9.jpg)
 Then configure the extension as Generation and the parameters and optional parameters
-![](../assets/images/posts/2024-08-12-How-to-connect-Watsonx-Assistant-to-WatsonX/10.jpg)
-![](../assets/images/posts/2024-08-12-How-to-connect-Watsonx-Assistant-to-WatsonX/11.jpg)
+![](../assets/images/posts/2024-08-12-How-to-connect-Watsonx-to-Watsonx-Assistant/10.jpg)
+![](../assets/images/posts/2024-08-12-How-to-connect-Watsonx-to-Watsonx-Assistant/11.jpg)
 
    - **Model ID**: `meta-llama/llama-3-405b-instruct`
    - **Project ID**: Use the Project ID you copied earlier.
@@ -104,14 +104,14 @@ Then configure the extension as Generation and the parameters and optional param
 
 Save your action and move to the next step.
 6. In this step, select with conditions. In the with condition, click the first item, and select watsonx + watsonx Assistant  (step 2). and click Ran Successfully
-![](../assets/images/posts/2024-08-12-How-to-connect-Watsonx-Assistant-to-WatsonX/12.jpg)
+![](../assets/images/posts/2024-08-12-How-to-connect-Watsonx-to-Watsonx-Assistant/12.jpg)
 
 7. After that set new value and add new session variable as result and free text
-![](../assets/images/posts/2024-08-12-How-to-connect-Watsonx-Assistant-to-WatsonX/13.jpg)
-![](../assets/images/posts/2024-08-12-How-to-connect-Watsonx-Assistant-to-WatsonX/14.jpg)
+![](../assets/images/posts/2024-08-12-How-to-connect-Watsonx-to-Watsonx-Assistant/13.jpg)
+![](../assets/images/posts/2024-08-12-How-to-connect-Watsonx-to-Watsonx-Assistant/14.jpg)
 
 8. For the variable assignment To, select Expression,a pull-down menu appears. Select watsonx + watsonx Assistant(step 2). and select body.results and append with [0].generated_text finally Its looks like    eg.2.body.results[0].generated_text.    And In Assistant says click fx select session variables and select result
-![](../assets/images/posts/2024-08-12-How-to-connect-Watsonx-Assistant-to-WatsonX/15.jpg)
+![](../assets/images/posts/2024-08-12-How-to-connect-Watsonx-to-Watsonx-Assistant/15.jpg)
 
 
 ### Step 7: Test the Action
@@ -123,7 +123,7 @@ Create a 5-sentence for share market message for a company called BSE. Offer: No
 ```
 
 If everything is working correctly, **watsonx.ai** will generate a marketing message based on your input.
-![](../assets/images/posts/2024-08-12-How-to-connect-Watsonx-Assistant-to-WatsonX/16.jpg)
+![](../assets/images/posts/2024-08-12-How-to-connect-Watsonx-to-Watsonx-Assistant/16.jpg)
 
 ---
 

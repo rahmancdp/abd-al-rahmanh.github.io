@@ -3,8 +3,8 @@ title: "How to Install and Run Apache Hadoop on AWS EC2 (Single-Node-Cluster)"
 excerpt: "How to Install and Run Apache Hadoop on AWS EC2 (Single-Node-Cluster)?"
 
 header:
-  image: "../assets/images/posts/2024-08-14-How-to-Install-and-Run-Apache-Hadoop-on-AWS-EC2-(Single-Node-Cluster)/over.jpg"
-  teaser: "../assets/images/posts/2024-08-14-How-to-Install-and-Run-Apache-Hadoop-on-AWS-EC2-(Single-Node-Cluster)/cover.jpg"
+  image: "../assets/images/posts/2024-08-14-How-to-Install-and-Run-Apache-Hadoop-on-AWS-EC2-(Single-Node-Cluster)/cover.jpg"
+  teaser: "../assets/images/posts/2024-08-14-How-to-Install-and-Run-Apache-Hadoop-on-AWS-EC2-(Single-Node-Cluster)/1.jpg"
   caption: "A year spent in artificial intelligence is enough to make one believe in God. —Alan Perlis"
   categories: [Hadoop, AWS, EC2, Big Data]
   

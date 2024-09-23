@@ -12,7 +12,7 @@ header:
 
 ## Introduction
 
-In this blog, I'll guide you through the steps to install and run Apache Hadoop on an AWS EC2 instance as a single-node cluster. If you haven't set up an EC2 instance yet, check out my previous ![Blog->Guide to creating an EC2 instance](https://abdulrahmanh.com/blog/How-to-Create-an-AWS-EC2-Instance) before proceeding.
+In this blog, I'll guide you through the steps to install and run Apache Hadoop on an AWS EC2 instance as a single-node cluster. If you haven't set up an EC2 instance yet, check out my previous [Blog->Guide to creating an EC2 instance](https://abdulrahmanh.com/blog/How-to-Create-an-AWS-EC2-Instance) before proceeding.
 
 ## Prerequisites
 

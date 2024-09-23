@@ -1,9 +1,11 @@
 # main links
 main:
-#  - title: "Blog"
-#    url: /blog
+
   - title: "Projects"
     url: /projects
+
+  - title: "Blog"
+    url: /blog
     
   - title: "Certifications"
     url: /certifications

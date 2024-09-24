@@ -28,7 +28,7 @@ Docker allows developers to package applications into containers—standardized 
 ---
 
 ## Prerequisites
-1. **An EC2 Instance** running Ubuntu (at least 15GB of storage).If you haven't set up an EC2 instance yet, check out my previous ![Blog->Guide to creating an EC2 instance](https://abdulrahmanh.com/blog/How-to-Create-an-AWS-EC2-Instance) before proceeding.
+1. **An EC2 Instance** running Ubuntu (at least 15GB of storage).If you haven't set up an EC2 instance yet, check out my previous [Blog->Guide to creating an EC2 instance](https://abdulrahmanh.com/blog/How-to-Create-an-AWS-EC2-Instance) before proceeding.
 2. **SSH access** to the instance.
 
 ## Part 1: Installing Docker

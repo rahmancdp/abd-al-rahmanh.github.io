@@ -205,7 +205,7 @@ vi hadoop-env.sh
 ```
 
 Remove `#` and paste this `export JAVA_HOME=/usr/lib/jvm/java-11-openjdk-amd64`
-[](../assets/images/posts/2024-08-14-How-to-Install-and-Run-Apache-Hadoop-on-AWS-EC2-Single-Node-Cluster/1.jpg)
+![](../assets/images/posts/2024-08-14-How-to-Install-and-Run-Apache-Hadoop-on-AWS-EC2-Single-Node-Cluster/1.jpg)
 
 ## Step 7: ssh key adding for (NOT ROOT USER)
 

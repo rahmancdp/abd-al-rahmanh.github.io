@@ -77,7 +77,7 @@ A **Service** in Kubernetes exposes your application's network on a cluster and 
     ```
 ## Reference image    
 
-[](../assets/images/posts/2024-09-01-How-to-Set-Up-a-Kubernetes-Single-Node-Cluster-Using-Minikube-on-AWS-EC2/1.jpg)
+![](../assets/images/posts/2024-09-01-How-to-Set-Up-a-Kubernetes-Single-Node-Cluster-Using-Minikube-on-AWS-EC2/1.jpg)
 
 ---
 
@@ -94,9 +94,9 @@ A **Service** in Kubernetes exposes your application's network on a cluster and 
     ```
 ## Reference image    
 
-[](../assets/images/posts/2024-09-01-How-to-Set-Up-a-Kubernetes-Single-Node-Cluster-Using-Minikube-on-AWS-EC2/2.jpg)
+![](../assets/images/posts/2024-09-01-How-to-Set-Up-a-Kubernetes-Single-Node-Cluster-Using-Minikube-on-AWS-EC2/2.jpg)
   
-[](../assets/images/posts/2024-09-01-How-to-Set-Up-a-Kubernetes-Single-Node-Cluster-Using-Minikube-on-AWS-EC2/3.jpg)
+![](../assets/images/posts/2024-09-01-How-to-Set-Up-a-Kubernetes-Single-Node-Cluster-Using-Minikube-on-AWS-EC2/3.jpg)
 
 ---
 
@@ -115,7 +115,7 @@ Minikube requires a virtualization platform to create a virtual machine. We’ll
     ```
 ## Reference image    
 
-[](../assets/images/posts/2024-09-01-How-to-Set-Up-a-Kubernetes-Single-Node-Cluster-Using-Minikube-on-AWS-EC2/4.jpg)    
+![](../assets/images/posts/2024-09-01-How-to-Set-Up-a-Kubernetes-Single-Node-Cluster-Using-Minikube-on-AWS-EC2/4.jpg)    
 
 3. **Start Minikube as root user (important for running within EC2):**
     ```bash
@@ -128,7 +128,7 @@ Minikube requires a virtualization platform to create a virtual machine. We’ll
     ```
 ## Reference image    
 
-[](../assets/images/posts/2024-09-01-How-to-Set-Up-a-Kubernetes-Single-Node-Cluster-Using-Minikube-on-AWS-EC2/5.jpg)    
+![](../assets/images/posts/2024-09-01-How-to-Set-Up-a-Kubernetes-Single-Node-Cluster-Using-Minikube-on-AWS-EC2/5.jpg)    
 
 ---
 
@@ -154,7 +154,7 @@ Minikube requires a virtualization platform to create a virtual machine. We’ll
     ```
 ## Reference image  u can get pods and nodes 
 
-[](../assets/images/posts/2024-09-01-How-to-Set-Up-a-Kubernetes-Single-Node-Cluster-Using-Minikube-on-AWS-EC2/6.jpg)
+![](../assets/images/posts/2024-09-01-How-to-Set-Up-a-Kubernetes-Single-Node-Cluster-Using-Minikube-on-AWS-EC2/6.jpg)
 
 2. **Create the NGINX pod:**
     ```bash
@@ -177,7 +177,7 @@ Minikube requires a virtualization platform to create a virtual machine. We’ll
     ```
 ## Reference image  U can access nginx pod in minikube ssh see below image
 
-[](../assets/images/posts/2024-09-01-How-to-Set-Up-a-Kubernetes-Single-Node-Cluster-Using-Minikube-on-AWS-EC2/7.jpg)    
+![](../assets/images/posts/2024-09-01-How-to-Set-Up-a-Kubernetes-Single-Node-Cluster-Using-Minikube-on-AWS-EC2/7.jpg)    
 
 ---
 
@@ -209,7 +209,7 @@ Minikube requires a virtualization platform to create a virtual machine. We’ll
     ```
 ## Reference image  U can access nginx pod in Ec2 level(node) see below image
 
-[](../assets/images/posts/2024-09-01-How-to-Set-Up-a-Kubernetes-Single-Node-Cluster-Using-Minikube-on-AWS-EC2/8.jpg)       
+![](../assets/images/posts/2024-09-01-How-to-Set-Up-a-Kubernetes-Single-Node-Cluster-Using-Minikube-on-AWS-EC2/8.jpg)       
 
 ---
 

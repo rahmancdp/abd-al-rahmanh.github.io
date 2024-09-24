@@ -21,6 +21,7 @@ Make sure Instance Size: t2.small (2 CPUs, 30 GB Storage). Note: This setup incu
 - An active AWS account
 - An EC2 instance (preferably Ubuntu)
 - Basic knowledge of Linux command line
+  
 ---
 
 ## Introduction

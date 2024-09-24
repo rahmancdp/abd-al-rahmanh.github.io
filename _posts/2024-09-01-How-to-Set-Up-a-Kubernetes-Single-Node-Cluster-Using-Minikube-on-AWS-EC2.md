@@ -9,8 +9,7 @@ header:
   categories: [Kubernetes, AWS, EC2, Minikube]
   
 ---
-
-# 🚀 Getting Started with Minikube & Kubernetes on EC2
+# Introduction
 
 In this blog, I'll guide you through the steps to Set Up a Kubernetes Single Node Cluster Using Minikube on AWS EC2. If you haven't set up an EC2 instance yet, check out my previous [Blog->Guide to creating an EC2 instance](https://abdulrahmanh.com/blog/How-to-Create-an-AWS-EC2-Instance) before proceeding.
 
@@ -24,8 +23,6 @@ Make sure Instance Size: t2.small (2 CPUs, 30 GB Storage). Note: This setup incu
   
 ---
 
-## Introduction
-
 Kubernetes is a powerful tool for managing containerized applications at scale. But before diving into large-scale clusters, it's helpful to practice on a smaller, local cluster. That's where **Minikube** comes in!
 
 In this blog, we'll cover the basics of **Minikube**, **kubectl**, and how to manage **pods** and **services (svc)** on an EC2 instance. Let's get started!
@@ -34,13 +31,10 @@ In this blog, we'll cover the basics of **Minikube**, **kubectl**, and how to ma
 
 ## 🌟 What is Minikube?
 **Minikube** is a tool that allows you to run Kubernetes locally. It creates a single-node Kubernetes cluster that you can use to run Kubernetes commands, deploy apps, and experiment with configurations.
-
 ## 📦 What is kubectl?
 **kubectl** is a command-line tool that lets you interact with Kubernetes clusters. You can use it to deploy and manage applications, as well as inspect and troubleshoot clusters.
-
 ## 🐳 What is a Pod?
 A **Pod** is the smallest deployable unit in Kubernetes. It encapsulates containers (like Docker containers) that share the same network namespace and storage. 
-
 ## 🔗 What is a Service (svc)?
 A **Service** in Kubernetes exposes your application's network on a cluster and connects Pods to the outside world (or to each other). The most common type of Service is **NodePort**, which opens a specific port on all cluster nodes for external traffic.
 
@@ -48,7 +42,7 @@ A **Service** in Kubernetes exposes your application's network on a cluster and 
 
 ## 💻 Install kubectl on Ubuntu (x86-64)
 
-1. **Update packages:**
+1. **Log into your EC2 machine and Update packages:**
     ```bash
     sudo apt update
     ```

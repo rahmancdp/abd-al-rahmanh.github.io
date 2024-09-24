@@ -3,7 +3,7 @@ title: "How to Set Up a Kubernetes Single Node Cluster Using Minikube on AWS EC2
 excerpt: "How to Set Up a Kubernetes Single Node Cluster Using Minikube on AWS EC2?"
 
 header:
-  image: "../assets/images/posts/2024-09-01- How-to-Set-Up-a-Kubernetes-Single-Node-Cluster-Using-Minikube-on-AWS-EC2/cover.jpg"
+  image: "../assets/images/posts/2024-09-01-How-to-Set-Up-a-Kubernetes-Single-Node-Cluster-Using-Minikube-on-AWS-EC2/cover.jpg"
   teaser: "../assets/images/posts/2024-09-01-How-to-Set-Up-a-Kubernetes-Single-Node-Cluster-Using-Minikube-on-AWS-EC2/cover.jpg"
   caption: "A year spent mastering Kubernetes is enough to make one believe in the power of orchestration.-Abdul Rahman"
   categories: [Kubernetes, AWS, EC2, Minikube]
@@ -13,6 +13,8 @@ header:
 # 🚀 Getting Started with Minikube & Kubernetes on EC2
 
 In this blog, I'll guide you through the steps to Set Up a Kubernetes Single Node Cluster Using Minikube on AWS EC2. If you haven't set up an EC2 instance yet, check out my previous ![Blog->Guide to creating an EC2 instance](https://abdulrahmanh.com/blog/How-to-Create-an-AWS-EC2-Instance) before proceeding.
+
+Make sure Instance Size: t2.small (2 CPUs, 30 GB Storage). Note: This setup incurs costs as it's beyond the free tier. Please shut down the instance when not in use to avoid charges."
 
 ## Prerequisites
 

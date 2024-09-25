@@ -10,9 +10,9 @@ header:
   tags: [Splunk, Data, AWS, Cloud, EC2]
 ---
 
-# Splunk Installation: Zero-to-Hero Guide
+# Introduction
 
-This guide walks you through setting up **Splunk Enterprise (Master)** and a **Universal Forwarder (Slave)** on AWS EC2 instances. It also covers the core components of Splunk, configuration steps, and how to run basic queries. If you haven't already set up your AWS EC2 instances, follow the instructions in my previous blog post,[Guide to Creating an EC2 Instance](https://abdulrahmanh.com/blog/How-to-Create-an-AWS-EC2-Instance) before proceeding.
+This blog walks you through setting up **Splunk Enterprise (Master)** and a **Universal Forwarder (Slave)** on AWS EC2 instances. It also covers the core components of Splunk, configuration steps, and how to run basic queries. If you haven't already set up your AWS EC2 instances, follow the instructions in my previous blog post,[Guide to Creating an EC2 Instance](https://abdulrahmanh.com/blog/How-to-Create-an-AWS-EC2-Instance) before proceeding.
 
 ## Table of Contents
 1. [Prerequisites](#prerequisites)

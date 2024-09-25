@@ -79,8 +79,6 @@ Here are the steps to install Splunk Enterprise on the master EC2 instance:
 
 ![](../assets/images/posts/2024-09-07-Splunk-Installation/5.jpg)   
 
-
-
 ---
 
 ## Splunk Slave Installation (Universal Forwarder)
@@ -112,6 +110,7 @@ To install the Splunk Universal Forwarder on the slave EC2 instance:
 5. **Create credentials**:
    - Username: `root`
    - Password: `12345678`
+     
 ---
 
 ## Key Components of Splunk

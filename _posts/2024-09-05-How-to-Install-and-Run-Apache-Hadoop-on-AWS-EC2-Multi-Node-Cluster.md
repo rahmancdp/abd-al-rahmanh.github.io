@@ -13,14 +13,12 @@ header:
 To set up a multi-node Hadoop cluster on AWS EC2, follow the steps below. Ensure you’ve already created 4 EC2 instances (NameNode, Secondary NameNode, DataNode1, DataNode2). If you're unfamiliar with setting up EC2 instances, check out my [Blog->Guide to creating an EC2 instance](https://abdulrahmanh.com/blog/How-to-Create-an-AWS-EC2-Instance) before proceeding. When launching EC2 instances, make sure to specify **4 instances**. 
 
 ---
-
 ## Pre-requisites
 
 1. **Create AWS EC2 instances:**
    - Launch **4 Ubuntu EC2 instances** for NameNode, Secondary NameNode, and DataNodes(1,2). Assign names to your instances accordingly.
 
 ![](../assets/images/posts/2024-09-05-How-to-Install-and-Run-Apache-Hadoop-on-AWS-EC2-Multi-Node-Cluster/1.jpg)   
-
 2. **SSH into the NameNode**:
     Copy the key pair you created for the EC2 instances to the NameNode. First the locate the pem file and type this below command:
     ```bash
@@ -45,7 +43,6 @@ To set up a multi-node Hadoop cluster on AWS EC2, follow the steps below. Ensure
 ![](../assets/images/posts/2024-09-05-How-to-Install-and-Run-Apache-Hadoop-on-AWS-EC2-Multi-Node-Cluster/1.jpg)
 
 ---
-
 ## Install Java and Hadoop
 
 1. **Install Java**:
@@ -54,7 +51,6 @@ To set up a multi-node Hadoop cluster on AWS EC2, follow the steps below. Ensure
     sudo apt-get -y install openjdk-8-jdk-headless
     ```
 ![](../assets/images/posts/2024-09-05-How-to-Install-and-Run-Apache-Hadoop-on-AWS-EC2-Multi-Node-Cluster/3.jpg)   
-
 2. **Download Hadoop**:
     Download and extract Hadoop on all 4 instances:
     ```bash
@@ -82,7 +78,6 @@ To set up a multi-node Hadoop cluster on AWS EC2, follow the steps below. Ensure
     ```
 
 ---
-
 ## Configure Password-less SSH
 
 1. **Generate SSH keys on NameNode(Master)**:
@@ -106,25 +101,26 @@ To set up a multi-node Hadoop cluster on AWS EC2, follow the steps below. Ensure
     ```
     Add the following:
     ```bash
-Host nnode
-  HostName <provide namenode-dns here>
-  User ubuntu
-  IdentityFile ~/.ssh/id_ed25519
+    ```bash
+   Host nnode
+      HostName <provide namenode-dns here>
+      User ubuntu
+      IdentityFile ~/.ssh/id_ed25519
 
-Host snnode
-  HostName <provide secondary namenode-dns here>
-  User ubuntu
-  IdentityFile ~/.ssh/id_ed25519
+   Host snnode
+      HostName <provide secondary namenode-dns here>
+      User ubuntu
+      IdentityFile ~/.ssh/id_ed25519
 
-Host dnode1
-  HostName <provide datanode1 dns here>
-  User ubuntu
-  IdentityFile ~/.ssh/id_ed25519
+   Host dnode1
+      HostName <provide datanode1 dns here>
+      User ubuntu
+      IdentityFile ~/.ssh/id_ed25519
 
-Host dnode2
-  HostName <provide datanode2 dns here>
-  User ubuntu
-  IdentityFile ~/.ssh/id_ed25519
+   Host dnode2
+      HostName <provide datanode2 dns here>
+      User ubuntu
+      IdentityFile ~/.ssh/id_ed25519
     ```
 
 ---
@@ -137,7 +133,6 @@ Host dnode2
     sudo chown -R ubuntu:ubuntu /usr/local/hadoop/hdfs/data
     ```
 ![](../assets/images/posts/2024-09-05-How-to-Install-and-Run-Apache-Hadoop-on-AWS-EC2-Multi-Node-Cluster/6.jpg)    
-
 2. **Configure Hadoop Files**:
     Modify the following Hadoop configuration files:
 
@@ -217,7 +212,6 @@ scp hadoop-env.sh core-site.xml hdfs-site.xml mapred-site.xml yarn-site.xml ubun
     Leave masters file empty in Datanode 1 and 2    
 
 ---
-
 ## Start the Hadoop Cluster
 
 1. **Format the NameNode**:
@@ -240,7 +234,6 @@ scp hadoop-env.sh core-site.xml hdfs-site.xml mapred-site.xml yarn-site.xml ubun
 ![](../assets/images/posts/2024-09-05-How-to-Install-and-Run-Apache-Hadoop-on-AWS-EC2-Multi-Node-Cluster/9.jpg)        
 
 ---
-
 ## Conclusion
 
 That's it! You now have Apache Hadoop running on a single-node cluster on your EC2 instance. You can access the NameNode UI by visiting `http://<ec2-public-ip>:9870`.

@@ -12,7 +12,7 @@ tags: [Big Data, Hadoop, Data Engineering, Cloud]
 
 Big Data has transformed the way organizations manage and analyze their data, and Hadoop is at the heart of this transformation. Let’s dive into what Hadoop is, its components, and its role in the Big Data ecosystem.
 
-![Hadoop Ecosystem](../assets/images/posts/2024-08-13-Understanding-Hadoop-and-Big-Data/1.jpg)
+![Hadoop Ecosystem](../assets/images/posts/2024-08-13-Understanding-Hadoop-and-Big-Data/1.png)
 
 ---
 

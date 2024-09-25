@@ -1,15 +1,13 @@
 ---
+title: "How to Create an AWS EC2 Instance (Latest UI)"
+excerpt: "A step-by-step guide to creating an AWS EC2 instance using the latest AWS user interface"
 
-**Title:** "How to Create an AWS EC2 Instance (Latest UI)"  
-**Excerpt:** "A step-by-step guide to creating an AWS EC2 instance using the latest AWS user interface."  
-
-**Header:**  
-  - Image: "../assets/images/posts/2024-08-08-How-to-Create-an-AWS-EC2-Instance/cover.jpg"  
-  - Teaser: "../assets/images/posts/2024-08-08-How-to-Create-an-AWS-EC2-Instance/cover.jpg"  
-  - Caption: "A single instance in the cloud can scale to move mountains. — Abdul Rahman"  
-  - Categories: [AWS, EC2, Cloud]  
-  - Tags: [AWS, EC2, Cloud]
-
+header:
+  image: "../assets/images/posts/2024-08-08-How-to-Create-an-AWS-EC2-Instance/cover.jpg"
+  teaser: "../assets/images/posts/2024-08-08-How-to-Create-an-AWS-EC2-Instance/cover.jpg"
+  caption: "A single instance in the cloud can scale to move mountains. — Abdul Rahman"
+categories: [AWS, EC2, Cloud]
+tags: [AWS, EC2, Cloud,]
 ---
 
 Creating an EC2 instance in AWS allows you to launch virtual machines (instances) that run on the AWS Cloud. Follow these simple steps to launch your first EC2 instance using the latest AWS UI.

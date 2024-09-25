@@ -1,6 +1,6 @@
 ---
 
-title: "Ultimate Splunk Installation Guide 2024: How to Install Splunk Enterprise and Universal Forwarder on AWS EC2"
+title: "How to Install Splunk Enterprise and Universal Forwarder on AWS EC2"
 excerpt: "A comprehensive guide to setting up Splunk Enterprise (Master) and Universal Forwarder (Slave) on AWS EC2, covering configuration and running queries."
 header:
   image: "../assets/images/posts/2024-09-07-Splunk-Installation/cover.jpg"

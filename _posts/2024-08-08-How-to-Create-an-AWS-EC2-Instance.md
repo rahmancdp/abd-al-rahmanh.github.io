@@ -1,6 +1,6 @@
 ---
 title: "How to Create an AWS EC2 Instance (Latest UI)"
-excerpt: "A step-by-step guide to creating an AWS EC2 instance using the latest AWS user interface"
+excerpt: "A quick guide to launching an AWS EC2 instance using the latest UI, with a focus on setting up Ubuntu as your operating system"
 
 header:
   image: "../assets/images/posts/2024-08-08-How-to-Create-an-AWS-EC2-Instance/cover.jpg"

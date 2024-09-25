@@ -145,5 +145,5 @@ With the rise of cloud computing, Hadoop’s role in Big Data continues to evolv
 
 **Checkout by blogs**
 
-- ![How to Install and Run Apache Hadoop on AWS EC2 (Single-Node-Cluster)](https://abdulrahmanh.com/blog/How-to-Install-and-Run-Apache-Hadoop-on-AWS-EC2-Single-Node-Cluster)
-- ![How to Install and Run Apache Hadoop on AWS EC2 (Multi-Node Cluster)](https://abdulrahmanh.com/blog/How-to-Install-and-Run-Apache-Hadoop-on-AWS-EC2-Multi-Node-Cluster)
+- [How to Install and Run Apache Hadoop on AWS EC2 (Single-Node-Cluster)](https://abdulrahmanh.com/blog/How-to-Install-and-Run-Apache-Hadoop-on-AWS-EC2-Single-Node-Cluster)
+- [How to Install and Run Apache Hadoop on AWS EC2 (Multi-Node Cluster)](https://abdulrahmanh.com/blog/How-to-Install-and-Run-Apache-Hadoop-on-AWS-EC2-Multi-Node-Cluster)

@@ -10,7 +10,7 @@ header:
   tags: [YouTube Downloader, yt-dlp, Python, Automation, Playlist Download, Video Download]
 ---
 
-# YouTube Downloader by Abdul Rahman
+# Introduction
 
 This guide introduces a simple but powerful YouTube downloader using Python and the `yt-dlp` library. You'll learn how to download entire playlists and single videos with ease using two Python scripts.
 
@@ -136,12 +136,6 @@ You can find both scripts, along with detailed instructions, in my GitHub reposi
 [YouTube Downloader on GitHub](https://github.com/Abd-al-RahmanH/Youtube-downloader)
 
 Feel free to contribute or raise any issues you encounter while using the tool.
-
----
-
-## 📄 License
-
-This project is licensed under the MIT License. For more information, refer to the [LICENSE file](https://github.com/Abd-al-RahmanH/Youtube-downloader/blob/main/LICENSE) in the repository.
 
 ---
 

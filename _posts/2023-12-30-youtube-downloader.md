@@ -3,8 +3,8 @@ title: "YouTube Video Downloader Using Python"
 excerpt: "Learn how to download YouTube playlists and single videos using Python and yt-dlp with this comprehensive guide."
 
 header:
-  image: "../assets/images/posts/2023-12-30-youtube-downloader/cover.jpg"
-  teaser: "../assets/images/posts/2023-12-30-youtube-downloader/cover.jpg"
+  image: "../assets/images/posts/2023-12-30-youtube-downloader/cover.png"
+  teaser: "../assets/images/posts/2023-12-30-youtube-downloader/cover.png"
   caption: "Automate YouTube Video and Playlist Downloads with Python. - Abdul Rahman"
   categories: [YouTube Downloader, Python, Automation]
   tags: [YouTube Downloader, yt-dlp, Python, Automation, Playlist Download, Video Download]

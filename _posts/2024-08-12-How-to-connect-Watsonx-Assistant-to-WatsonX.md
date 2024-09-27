@@ -3,8 +3,8 @@ title: "How to connect Watsonx to Watsonx Assistant"
 excerpt: "How to connect Watsonx to WatsonX Assistant ?"
 
 header:
-  image: "../assets/images/posts/2024-08-12-How-to-connect-Watsonx-Assistant-to-WatsonX/cover.jpg"
-  teaser: "../assets/images/posts/2024-08-12-How-to-connect-Watsonx-Assistant-to-WatsonX/cover.jpg"
+  image: "../assets/images/posts/2024-08-12-How-to-connect-Watsonx-Assistant-to-WatsonX/cover.png"
+  teaser: "../assets/images/posts/2024-08-12-How-to-connect-Watsonx-Assistant-to-WatsonX/cover.png"
   caption: "A year spent in artificial intelligence is enough to make one believe in God. —Alan Perlis"
   
 ---

@@ -137,4 +137,6 @@ Congratulations! You've successfully created an **EC2 instance** using the lates
 
 ---
 
+For more interesting blogs on similar topics, check out the [Blog Section](https://abdulrahmanh.com/blog).
+
  

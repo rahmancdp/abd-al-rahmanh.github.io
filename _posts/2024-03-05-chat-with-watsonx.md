@@ -129,6 +129,7 @@ If you find this project helpful, don’t forget to give it a ⭐ on GitHub! You
 ## 🌐 Live Project
 
 You can also view the live project on [Hugging Face](https://huggingface.co/spaces/RAHMAN00700/rahmans_watsonx).
+![](../assets/images/posts/2024-03-05-chat-with-watsonx/1.jpg)
 
 ---
 

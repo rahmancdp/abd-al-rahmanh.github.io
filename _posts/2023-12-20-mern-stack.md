@@ -60,7 +60,7 @@ You can view the application at `http://localhost:3000`.
 
 You can check out the live version of this MERN app hosted on **Netlify**: [zayans-fashion.netlify.app](https://zayans-fashion.netlify.app/).
 
-![](https://zayans-fashion.netlify.app/)
+![](../assets/images/posts/2023-12-20-mern-stack/cover.jpg)
 
 ---
 

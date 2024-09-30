@@ -1,4 +1,3 @@
-
 ---
 title: "Live MERN Stack App"
 excerpt: "Explore how to set up, run, and deploy a live MERN stack app from GitHub to Netlify."

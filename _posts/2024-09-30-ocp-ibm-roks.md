@@ -1,5 +1,5 @@
 ---
-title: "Create an OpenShift Cluster on IBM Cloud with ROKS"
+title: "Create an OpenShift Cluster on IBM Cloud with ROKS and Deploy a Simple CRUD App"
 excerpt: "Learn how to create an OpenShift Container Platform (OCP) cluster using IBM's ROKS service, from logging in to the IBM Cloud console to launching the cluster."
 
 header:
@@ -100,7 +100,7 @@ Use the URL provided to access the OpenShift Console. Use the `oc` CLI or web in
 If you want to install and configure **oc - Command line Interface**, Check out my [Get Free OpenShift Dedicated cluster blog](https://abdulrahmanh.com/blog/openshift-dedicated).
 
 ---
-## 🌐 Additional Resources
+## 🌐 Deploy Sample Crud-app
 
 If you want to run a sample web app, Check out my Github Page[Openshift-crud-app](https://github.com/Abd-al-RahmanH/Openshift-crud-app).
 

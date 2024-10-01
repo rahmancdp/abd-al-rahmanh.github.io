@@ -97,10 +97,11 @@ Once the cluster is created, access the OpenShift web console:
 
 Use the URL provided to access the OpenShift Console. Use the `oc` CLI or web interface to start managing your cluster resources.
 
----
+If you want to install and configure **oc - Command line Interface**, Check out my [Get Free OpenShift Dedicated cluster blog](https://abdulrahmanh.com/blog/openshift-dedicated).
 
+---
 ## 🌐 Additional Resources
 
-For more details on OpenShift Dedicated and other configurations, check out my [Get Free OpenShift Dedicated cluster](https://abdulrahmanh.com/blog/openshift-dedicated).
+If you want to run a sample web app, Check out my Github Page[Openshift-crud-app](https://github.com/Abd-al-RahmanH/Openshift-crud-app).
 
 ---

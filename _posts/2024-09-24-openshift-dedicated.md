@@ -130,7 +130,7 @@ oc project my-app
 Deploy a Node.js application from a GitHub repository using the `oc new-app` command:
 
 ```bash
-oc new-app nodejs~https://github.com/rahman/nodejs-ex
+oc new-app nodejs~https://github.com/sclorg/nodejs-ex
 ```
 
 This command will automatically create a deployment, build the image from the source code, and deploy the application pods.
@@ -190,7 +190,7 @@ Use the following commands to view logs and debug issues:
 
 With this guide, you now have the knowledge to get started with a free OpenShift Developer Sandbox and perform basic operations in OpenShift Dedicated clusters. Take advantage of this environment to explore cloud-native development, deploy applications, and test CI/CD workflows.
 
-If you encounter any issues or have questions, feel free to ask for help in the Red Hat Developer community or explore the documentation!
+If you encounter any issues or have questions, feel free to ask for help in the Red Hat Developer community or explore the [Documentation!](https://docs.openshift.com/)
 
 **Happy OpenShift-ing!**
 ```

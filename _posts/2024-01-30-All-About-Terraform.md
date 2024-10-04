@@ -16,7 +16,7 @@ Terraform is a powerful Infrastructure as Code (IaC) tool that allows you to def
 ## What is Terraform?
 Terraform is an open-source IaC tool developed by HashiCorp. It uses a high-level configuration language known as HCL (HashiCorp Configuration Language) to define cloud infrastructure, making it cloud-agnostic and widely adopted for managing resources across AWS, Azure, Google Cloud, and many other providers.
 
-![Terraform Overview](../assets/images/posts/2024-01-30-All-About-Terraform/terraform_overview.jpg)
+![Terraform Overview](../assets/images/posts/2024-01-30-All-About-Terraform/1.jpg)
 
 ## Why Use Terraform?
 - **Cloud Agnostic**: Use a single configuration file for multiple providers.

@@ -9,7 +9,7 @@ categories: [DevOps, Terraform, Cloud]
 tags: [DevOps, Terraform, Infrastructure as Code, Cloud, AWS, Azure, GCP]
 ---
 
-# All About Terraform: From Beginner to Advanced
+# Introduction
 
 Terraform is a powerful Infrastructure as Code (IaC) tool that allows you to define, deploy, and manage cloud resources in a repeatable and automated way. In this guide, we'll explore everything you need to know about Terraform, whether you're just getting started or looking to advance your skills.
 

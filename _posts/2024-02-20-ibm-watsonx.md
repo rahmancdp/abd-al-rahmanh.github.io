@@ -32,6 +32,8 @@ IBM Watsonx is a comprehensive AI platform that simplifies the building, trainin
 
 ## 🏗️ IBM Watsonx Architecture
 
+![](../assets/images/posts/2024-02-20-ibm-watsonx/1.jpg)
+
 ### IBM Watsonx.ai
 
 Watsonx.ai is IBM’s AI model-building platform, equipped with pre-trained foundational models for various AI tasks such as NLP, speech-to-text, and computer vision.
